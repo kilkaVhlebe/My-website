@@ -1,0 +1,11 @@
+@import "https://www.nerdfonts.com/assets/css/webfont.css";
+:root {
+  
+  font-family: Roboto, Avenir, Helvetica;
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

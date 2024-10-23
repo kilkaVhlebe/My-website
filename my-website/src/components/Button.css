@@ -1,0 +1,17 @@
+button {
+    background-color: rgb(37, 37, 37);
+    color: aliceblue;
+    border: none;
+    font-size: 15pt;
+    font-family: Roboto;
+    height: 50px;
+    max-width: wrap;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+button:hover{
+    color: rgb(211, 211, 211);
+}
