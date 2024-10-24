@@ -2,3 +2,12 @@ body {
   background-color: rgb(37, 37, 37);
   color: aliceblue;
 }
+.text-art {
+  color: rgb(0, 152, 0);
+  font-family: Roboto, monospace;
+  font-size: 1rem;
+  line-height: 1;
+  overflow: auto;
+  padding: 1rem;
+  white-space: pre;
+}
