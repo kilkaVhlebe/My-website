@@ -15,3 +15,12 @@ button {
 button:hover{
     color: rgb(211, 211, 211);
 }
+
+.Link {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.Link:hover {
+    color: rgb(211, 211, 211);
+}

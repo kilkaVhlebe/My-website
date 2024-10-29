@@ -1,27 +1,13 @@
-import './App.css'
-import Header from './components/Header'
+import './App.css';
 
-const Art ="                                           #\n                                      ###\n                            #############                                     ###\n                  #######################              #####\n        #### . ###############################\n#######   ##############################                                         Yes - it's literally me\n#######################################\n      #(     )########################              ####\n          #########################\n               ###################\n                           ###            ###\n                                #                 #"
+import Header from './components/Header';
 
-function TextArt (props: {label: string, text: string}) {
+const App = () => {
   return (
-    <pre
-      aria-label={props.label}
-      className="text-art"
-    >{props.text}</pre>
+    <div>
+      <Header />
+      </div>
   );
 }
 
-
-const App = () => {
-
-  return (
-   <>
-   <Header />
-   <TextArt label="literly me" text={Art}/>
-   <span></span>
-   </>
-  )
-}
-
-export default App
+export default App;
