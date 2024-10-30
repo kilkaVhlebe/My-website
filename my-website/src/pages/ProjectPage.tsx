@@ -2,8 +2,13 @@ import ProjectItem from "../components/ProjectItem"
 
 export default function ProjectPage() {
     return (
-        <body>
+        <div>
+              <ProjectItem name="Name" description="description" link="https://killmyself.ru/" /> 
               <ProjectItem name="Name" description="description" link="https://killmyself.ru/" />  
-        </body>
+              <ProjectItem name="Name" description="description" link="https://killmyself.ru/" />  
+              <ProjectItem name="Name" description="description" link="https://killmyself.ru/" />  
+              <ProjectItem name="Name" description="description" link="https://killmyself.ru/" />  
+              
+        </div>
     )
 }
