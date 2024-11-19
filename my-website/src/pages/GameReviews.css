@@ -1,5 +1,5 @@
 .filter_bar {
- max-width: fit-content;
+ max-width: 1110px;
  max-height: fit-content;
  display: flex;
  margin-top: 30px;
@@ -13,8 +13,8 @@
     border-radius: 10px;
     color:aliceblue;
     font-size: 15pt;
-    max-width: 400px;
-    margin-right: 20px;
+    width: 400px;
+    margin-right: auto;
 }
 
 .filter_input:focus {
@@ -26,6 +26,8 @@
     border: 3px solid, aliceblue;
     border-radius: 10px;
     color:aliceblue;
+    min-width: 50px;
+    margin: 10px;
 }
 
 .review_list {
@@ -38,3 +40,51 @@
 .review_list button:focus {
     outline-width: 0px;
 }
+.genre_section {
+    max-width: 1110px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    background-color: rgb(27, 26, 26);
+    border: 3px solid aliceblue;
+    border-radius: 10px;
+    color: aliceblue;
+    display: flex;
+    gap: 10px;
+    animation: slideDown 0.3s ease-out;
+}
+
+@keyframes slideDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.genre_button {
+    background-color: rgb(27, 26, 26);
+    border: 3px solid aliceblue;
+    border-radius: 10px;
+    color: aliceblue;
+    padding: 5px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.genre_button.selected {
+    background-color: rgb(50, 50, 50);
+}
+
+.genre_button:hover {
+    background-color: rgb(50, 50, 50);
+}
+
+.genre_section .genre_button {
+    margin: 0;
+}
+

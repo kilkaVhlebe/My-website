@@ -1,13 +1,13 @@
 import './ReviewItem.css'
 
-export default function ReviewItem() {
+export default function ReviewItem(props: {title: string, grade: string, imgLink: string}) {
     return (
         <button className='item'>
             <div className='item_box'>
-            <div>ahuenno</div>
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_xbpQMf73dtCr99cLyBOYYaHuIKGTCzmjOA&s" height={150} width={200}>
+            <div>{props.grade}</div>
+            <img src={props.imgLink} height={150} width={200}>
             </img>
-            <p>aboba</p>
+            <p>{props.title}</p>
             </div>
         </button>
     )
