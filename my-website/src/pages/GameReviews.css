@@ -28,6 +28,7 @@
     color:aliceblue;
     min-width: 50px;
     margin: 10px;
+    font-size: 18px;
 }
 
 .review_list {
@@ -40,51 +41,31 @@
 .review_list button:focus {
     outline-width: 0px;
 }
-.genre_section {
-    max-width: 1110px;
-    margin-top: 20px;
-    margin-left: auto;
-    margin-right: auto;
+
+.review-window {
+    position:fixed;
+    top: 220px;
+    z-index: 1;
+    background-color: rgb(28, 28, 28);
+    border-radius: 10px;
+    width: 370px;
+    height: 600px;
     padding: 10px;
-    background-color: rgb(27, 26, 26);
-    border: 3px solid aliceblue;
-    border-radius: 10px;
-    color: aliceblue;
-    display: flex;
-    gap: 10px;
-    animation: slideDown 0.3s ease-out;
 }
 
-@keyframes slideDown {
-    0% {
-        opacity: 0;
-        transform: translateY(-10px);
-    }
-    100% {
-        opacity: 1;
-        transform: translateY(0);
-    }
+.review-window h2 {
+    margin: 0px;
 }
 
-.genre_button {
-    background-color: rgb(27, 26, 26);
-    border: 3px solid aliceblue;
-    border-radius: 10px;
-    color: aliceblue;
-    padding: 5px 15px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
+.review-window button {
+    position: absolute;
+    border-radius: 8px;
+    border: solid aliceblue 3px;
+    bottom: 10px;
+    right: 10px;
 }
 
-.genre_button.selected {
-    background-color: rgb(50, 50, 50);
+.review-window img {
+    width: 360px;
+    height: 60%;
 }
-
-.genre_button:hover {
-    background-color: rgb(50, 50, 50);
-}
-
-.genre_section .genre_button {
-    margin: 0;
-}
-
