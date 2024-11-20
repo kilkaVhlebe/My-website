@@ -2,12 +2,14 @@ const createError = require('http-errors');
 const express = require('express');
 const path = require('path');
 const logger = require('morgan');
+const dotenv = require('dotenv/config')
+const cors = require('cors')
 
 const reviewsRouter = require('./routes/reviews.router');
 const usersRouter = require('./routes/users');
 
 const app = express();
-
+app.use(cors());
 app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
@@ -20,6 +22,7 @@ app.use('/users', usersRouter);
 app.use(function(req, res, next) {
   next(createError(404));
 });
+
 
 // error handler
 app.use(function(err, req, res, next) {
