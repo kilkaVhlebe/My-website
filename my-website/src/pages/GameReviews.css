@@ -30,6 +30,9 @@
     margin: 10px;
     font-size: 18px;
 }
+.selected {
+    background-color: gray;
+}
 
 .review_list {
     max-width: 1110px;
@@ -60,6 +63,7 @@
     z-index: 1;
     background-color: rgb(28, 28, 28);
     border-radius: 10px;
+    border: solid aliceblue 3px;
 }
 
 .review-window h2 {

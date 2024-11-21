@@ -119,25 +119,6 @@ export default function GameReviews() {
           <h2>Title: {currentReview.title}</h2>
           <h3>Grade: {currentReview.grade}</h3>
           <p>{currentReview.reviewtext}</p>
-          <p>{currentReview.reviewtext}</p>
-          <p>{currentReview.reviewtext}</p>
-          <p>{currentReview.reviewtext}</p>
-          <p>{currentReview.reviewtext}</p>
-          <p>{currentReview.reviewtext}</p>
-          <p>{currentReview.reviewtext}</p>
-          <p>{currentReview.reviewtext}</p>
-          <p>{currentReview.reviewtext}</p>
-          <p>{currentReview.reviewtext}</p>
-          <p>{currentReview.reviewtext}</p>
-          <p>{currentReview.reviewtext}</p>
-          <p>{currentReview.reviewtext}</p>
-          <p>{currentReview.reviewtext}</p>
-          <p>{currentReview.reviewtext}</p>
-          <p>{currentReview.reviewtext}</p>
-          <p>{currentReview.reviewtext}</p>
-          <p>{currentReview.reviewtext}</p>
-          <p>{currentReview.reviewtext}</p>
-          <p>{currentReview.reviewtext}</p>
           <button onClick={handleCloseReview}>Close</button>
         </div>
         </div>
