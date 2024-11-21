@@ -43,14 +43,23 @@
 }
 
 .review-window {
+    z-index: 1;
+    height: 610px;
+    padding: 10px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    border-radius: 8px;
+    scrollbar-color: rgb(33, 33, 33) rgba(131, 131, 131, 0.244);
+}
+
+.outer {
     position:fixed;
+    overflow: hidden;
     top: 220px;
+    width: 370px;
     z-index: 1;
     background-color: rgb(28, 28, 28);
     border-radius: 10px;
-    width: 370px;
-    height: 600px;
-    padding: 10px;
 }
 
 .review-window h2 {
@@ -58,14 +67,15 @@
 }
 
 .review-window button {
-    position: absolute;
-    border-radius: 8px;
-    border: solid aliceblue 3px;
+    position: fixed;
     bottom: 10px;
-    right: 10px;
+    border: aliceblue solid 3px;
+    border-radius: 10px;
 }
 
 .review-window img {
     width: 360px;
-    height: 60%;
+    height: 55%;
+    margin-top: 5px;
+    border-radius: 10px;
 }

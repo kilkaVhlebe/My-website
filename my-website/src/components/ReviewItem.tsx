@@ -6,7 +6,7 @@ export default function ReviewItem(props: {title: string, grade: string, imgLink
         <button className='item' onClick={props.onClick}>
             <div className='item_box'>
             <div>{props.grade}</div>
-            <img src={props.imgLink} height={150} width={200}>
+            <img src={props.imgLink} height={200} width={200}>
             </img>
             <p>{props.title}</p>
             </div>

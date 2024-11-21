@@ -113,12 +113,33 @@ export default function GameReviews() {
         ))}
       </div>
       {showReview && currentReview && (
+        <div className='outer'>
         <div className="review-window">
             <img src={currentReview.imglink} width={360}/>
           <h2>Title: {currentReview.title}</h2>
           <h3>Grade: {currentReview.grade}</h3>
           <p>{currentReview.reviewtext}</p>
+          <p>{currentReview.reviewtext}</p>
+          <p>{currentReview.reviewtext}</p>
+          <p>{currentReview.reviewtext}</p>
+          <p>{currentReview.reviewtext}</p>
+          <p>{currentReview.reviewtext}</p>
+          <p>{currentReview.reviewtext}</p>
+          <p>{currentReview.reviewtext}</p>
+          <p>{currentReview.reviewtext}</p>
+          <p>{currentReview.reviewtext}</p>
+          <p>{currentReview.reviewtext}</p>
+          <p>{currentReview.reviewtext}</p>
+          <p>{currentReview.reviewtext}</p>
+          <p>{currentReview.reviewtext}</p>
+          <p>{currentReview.reviewtext}</p>
+          <p>{currentReview.reviewtext}</p>
+          <p>{currentReview.reviewtext}</p>
+          <p>{currentReview.reviewtext}</p>
+          <p>{currentReview.reviewtext}</p>
+          <p>{currentReview.reviewtext}</p>
           <button onClick={handleCloseReview}>Close</button>
+        </div>
         </div>
       )}
     </div>

@@ -8,9 +8,15 @@
 }
 .item_box div{
     position: absolute;
-    display: inline-block;
-    justify-self: right;
-    margin-right: 5%;
+    display: flex;
+    justify-content: right;
+    width: 200px;
+    color: rgb(42, 42, 42);
+    font-size: 20px;
+    font-weight: bold;
+    -webkit-text-stroke-color: aliceblue;
+    -webkit-text-stroke-width: 1px;
+    margin-top: 5px;
 }
 
 .item_box img {
